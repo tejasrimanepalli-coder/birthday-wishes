@@ -70,10 +70,6 @@ animation:float 8s linear infinite;
 <div class="balloon" style="left:95%;animation-delay:1s;">🎈</div>
 
 <script>
-setTimeout(()=>{
-alert("🎉 Happy Birthday Tejasrii! 🎂");
-},500);
-</script>
 <audio id="music" autoplay loop>
     <source src="birthday.mp3" type="audio/mpeg">
 </audio>
@@ -83,11 +79,16 @@ window.onload = function () {
     const music = document.getElementById("music");
 
     music.play().catch(() => {
-        document.body.addEventListener("click", () => {
+        document.body.addEventListener("click", function () {
             music.play();
         }, { once: true });
     });
+
+    setTimeout(function () {
+        alert("🎉 Happy Birthday Aparna! 🎂");
+    }, 500);
 };
+</script>
 </script>
 </body>
 </html>
