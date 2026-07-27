@@ -1,2 +1,80 @@
 # birthday-wishes
 Birthday Surprise Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Tejasrii</title>
+
+<style>
+body{
+margin:0;
+padding:0;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:linear-gradient(135deg,#ff4da6,#ffcc00,#66ccff);
+overflow:hidden;
+font-family:Arial,sans-serif;
+}
+
+h1{
+font-size:65px;
+color:white;
+text-align:center;
+text-shadow:4px 4px 10px black;
+animation:zoom 2s infinite alternate;
+}
+
+p{
+font-size:35px;
+color:white;
+text-align:center;
+font-weight:bold;
+}
+
+@keyframes zoom{
+from{transform:scale(1);}
+to{transform:scale(1.2);}
+}
+
+.balloon{
+position:absolute;
+bottom:-150px;
+font-size:50px;
+animation:float 8s linear infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+100%{transform:translateY(-120vh);}
+}
+</style>
+
+</head>
+
+<body>
+
+<div align="center">
+<h1>🎂 HAPPY BIRTHDAY 🎂<br>APARNA</h1>
+<p>🎉 Have a Wonderful Day! 🎉</p>
+</div>
+
+<div class="balloon" style="left:5%;animation-delay:0s;">🎈</div>
+<div class="balloon" style="left:20%;animation-delay:2s;">🎈</div>
+<div class="balloon" style="left:35%;animation-delay:1s;">🎈</div>
+<div class="balloon" style="left:50%;animation-delay:3s;">🎈</div>
+<div class="balloon" style="left:65%;animation-delay:2s;">🎈</div>
+<div class="balloon" style="left:80%;animation-delay:4s;">🎈</div>
+<div class="balloon" style="left:95%;animation-delay:1s;">🎈</div>
+
+<script>
+setTimeout(()=>{
+alert("🎉 Happy Birthday Tejasrii! 🎂");
+},500);
+</script>
+
+</body>
+</html>
