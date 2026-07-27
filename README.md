@@ -5,7 +5,7 @@ Birthday Surprise Website
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Happy Birthday Tejasrii</title>
+<title>Happy Birthday Aparna</title>
 
 <style>
 body{
@@ -72,7 +72,7 @@ animation:float 8s linear infinite;
 
 <script>
 setTimeout(()=>{
-alert("🎉 Happy Birthday Tejasrii! 🎂");
+alert("🎉 Happy Birthday Aparna! 🎂");
 },500);
 </script>
 
