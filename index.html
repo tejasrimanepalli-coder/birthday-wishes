@@ -74,6 +74,20 @@ setTimeout(()=>{
 alert("🎉 Happy Birthday Tejasrii! 🎂");
 },500);
 </script>
+<audio id="music" autoplay loop>
+    <source src="birthday.mp3" type="audio/mpeg">
+</audio>
 
+<script>
+window.onload = function () {
+    const music = document.getElementById("music");
+
+    music.play().catch(() => {
+        document.body.addEventListener("click", () => {
+            music.play();
+        }, { once: true });
+    });
+};
+</script>
 </body>
 </html>
